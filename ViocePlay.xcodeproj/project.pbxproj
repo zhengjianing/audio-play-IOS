@@ -18,6 +18,10 @@
 		49A49971180FF4B500D387A2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49A49970180FF4B500D387A2 /* Default-568h@2x.png */; };
 		49A49974180FF4B500D387A2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A49972180FF4B500D387A2 /* MainStoryboard.storyboard */; };
 		49A49977180FF4B500D387A2 /* VPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A49976180FF4B500D387A2 /* VPViewController.m */; };
+		49A4997E180FF50F00D387A2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A4997D180FF50F00D387A2 /* AudioToolbox.framework */; };
+		49A49980180FF5B700D387A2 /* hello.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 49A4997F180FF5B700D387A2 /* hello.aiff */; };
+		49A49982180FF93D00D387A2 /* hello-wav.wav in Resources */ = {isa = PBXBuildFile; fileRef = 49A49981180FF93D00D387A2 /* hello-wav.wav */; };
+		49A49984181004CB00D387A2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A49983181004CB00D387A2 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,10 @@
 		49A49973180FF4B500D387A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		49A49975180FF4B500D387A2 /* VPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VPViewController.h; sourceTree = "<group>"; };
 		49A49976180FF4B500D387A2 /* VPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VPViewController.m; sourceTree = "<group>"; };
+		49A4997D180FF50F00D387A2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		49A4997F180FF5B700D387A2 /* hello.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = hello.aiff; path = ../../../Desktop/hello.aiff; sourceTree = "<group>"; };
+		49A49981180FF93D00D387A2 /* hello-wav.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "hello-wav.wav"; path = "../../../Desktop/hello-wav.wav"; sourceTree = "<group>"; };
+		49A49983181004CB00D387A2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +52,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49A49984181004CB00D387A2 /* AVFoundation.framework in Frameworks */,
+				49A4997E180FF50F00D387A2 /* AudioToolbox.framework in Frameworks */,
 				49A4995B180FF4B500D387A2 /* UIKit.framework in Frameworks */,
 				49A4995D180FF4B500D387A2 /* Foundation.framework in Frameworks */,
 				49A4995F180FF4B500D387A2 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +66,8 @@
 		49A4994E180FF4B500D387A2 = {
 			isa = PBXGroup;
 			children = (
+				49A49981180FF93D00D387A2 /* hello-wav.wav */,
+				49A4997F180FF5B700D387A2 /* hello.aiff */,
 				49A49960180FF4B500D387A2 /* ViocePlay */,
 				49A49959180FF4B500D387A2 /* Frameworks */,
 				49A49958180FF4B500D387A2 /* Products */,
@@ -73,6 +85,8 @@
 		49A49959180FF4B500D387A2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				49A49983181004CB00D387A2 /* AVFoundation.framework */,
+				49A4997D180FF50F00D387A2 /* AudioToolbox.framework */,
 				49A4995A180FF4B500D387A2 /* UIKit.framework */,
 				49A4995C180FF4B500D387A2 /* Foundation.framework */,
 				49A4995E180FF4B500D387A2 /* CoreGraphics.framework */,
@@ -164,6 +178,8 @@
 				49A4996F180FF4B500D387A2 /* Default@2x.png in Resources */,
 				49A49971180FF4B500D387A2 /* Default-568h@2x.png in Resources */,
 				49A49974180FF4B500D387A2 /* MainStoryboard.storyboard in Resources */,
+				49A49980180FF5B700D387A2 /* hello.aiff in Resources */,
+				49A49982180FF93D00D387A2 /* hello-wav.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
