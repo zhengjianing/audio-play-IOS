@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49A4995B180FF4B500D387A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A4995A180FF4B500D387A2 /* UIKit.framework */; };
+		49A4995D180FF4B500D387A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A4995C180FF4B500D387A2 /* Foundation.framework */; };
+		49A4995F180FF4B500D387A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A4995E180FF4B500D387A2 /* CoreGraphics.framework */; };
+		49A49965180FF4B500D387A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49A49963180FF4B500D387A2 /* InfoPlist.strings */; };
+		49A49967180FF4B500D387A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A49966180FF4B500D387A2 /* main.m */; };
+		49A4996B180FF4B500D387A2 /* VPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A4996A180FF4B500D387A2 /* VPAppDelegate.m */; };
+		49A4996D180FF4B500D387A2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 49A4996C180FF4B500D387A2 /* Default.png */; };
+		49A4996F180FF4B500D387A2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49A4996E180FF4B500D387A2 /* Default@2x.png */; };
+		49A49971180FF4B500D387A2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49A49970180FF4B500D387A2 /* Default-568h@2x.png */; };
+		49A49974180FF4B500D387A2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A49972180FF4B500D387A2 /* MainStoryboard.storyboard */; };
+		49A49977180FF4B500D387A2 /* VPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A49976180FF4B500D387A2 /* VPViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49A49957180FF4B500D387A2 /* ViocePlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViocePlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A4995A180FF4B500D387A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		49A4995C180FF4B500D387A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		49A4995E180FF4B500D387A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		49A49962180FF4B500D387A2 /* ViocePlay-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViocePlay-Info.plist"; sourceTree = "<group>"; };
+		49A49964180FF4B500D387A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		49A49966180FF4B500D387A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49A49968180FF4B500D387A2 /* ViocePlay-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViocePlay-Prefix.pch"; sourceTree = "<group>"; };
+		49A49969180FF4B500D387A2 /* VPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VPAppDelegate.h; sourceTree = "<group>"; };
+		49A4996A180FF4B500D387A2 /* VPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VPAppDelegate.m; sourceTree = "<group>"; };
+		49A4996C180FF4B500D387A2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		49A4996E180FF4B500D387A2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		49A49970180FF4B500D387A2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		49A49973180FF4B500D387A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		49A49975180FF4B500D387A2 /* VPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VPViewController.h; sourceTree = "<group>"; };
+		49A49976180FF4B500D387A2 /* VPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VPViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49A49954180FF4B500D387A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A4995B180FF4B500D387A2 /* UIKit.framework in Frameworks */,
+				49A4995D180FF4B500D387A2 /* Foundation.framework in Frameworks */,
+				49A4995F180FF4B500D387A2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49A4994E180FF4B500D387A2 = {
+			isa = PBXGroup;
+			children = (
+				49A49960180FF4B500D387A2 /* ViocePlay */,
+				49A49959180FF4B500D387A2 /* Frameworks */,
+				49A49958180FF4B500D387A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49A49958180FF4B500D387A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49A49957180FF4B500D387A2 /* ViocePlay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49A49959180FF4B500D387A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49A4995A180FF4B500D387A2 /* UIKit.framework */,
+				49A4995C180FF4B500D387A2 /* Foundation.framework */,
+				49A4995E180FF4B500D387A2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49A49960180FF4B500D387A2 /* ViocePlay */ = {
+			isa = PBXGroup;
+			children = (
+				49A49969180FF4B500D387A2 /* VPAppDelegate.h */,
+				49A4996A180FF4B500D387A2 /* VPAppDelegate.m */,
+				49A49972180FF4B500D387A2 /* MainStoryboard.storyboard */,
+				49A49975180FF4B500D387A2 /* VPViewController.h */,
+				49A49976180FF4B500D387A2 /* VPViewController.m */,
+				49A49961180FF4B500D387A2 /* Supporting Files */,
+			);
+			path = ViocePlay;
+			sourceTree = "<group>";
+		};
+		49A49961180FF4B500D387A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49A49962180FF4B500D387A2 /* ViocePlay-Info.plist */,
+				49A49963180FF4B500D387A2 /* InfoPlist.strings */,
+				49A49966180FF4B500D387A2 /* main.m */,
+				49A49968180FF4B500D387A2 /* ViocePlay-Prefix.pch */,
+				49A4996C180FF4B500D387A2 /* Default.png */,
+				49A4996E180FF4B500D387A2 /* Default@2x.png */,
+				49A49970180FF4B500D387A2 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49A49956180FF4B500D387A2 /* ViocePlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49A4997A180FF4B500D387A2 /* Build configuration list for PBXNativeTarget "ViocePlay" */;
+			buildPhases = (
+				49A49953180FF4B500D387A2 /* Sources */,
+				49A49954180FF4B500D387A2 /* Frameworks */,
+				49A49955180FF4B500D387A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViocePlay;
+			productName = ViocePlay;
+			productReference = 49A49957180FF4B500D387A2 /* ViocePlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49A4994F180FF4B500D387A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VP;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = jianing;
+			};
+			buildConfigurationList = 49A49952180FF4B500D387A2 /* Build configuration list for PBXProject "ViocePlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 49A4994E180FF4B500D387A2;
+			productRefGroup = 49A49958180FF4B500D387A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49A49956180FF4B500D387A2 /* ViocePlay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49A49955180FF4B500D387A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A49965180FF4B500D387A2 /* InfoPlist.strings in Resources */,
+				49A4996D180FF4B500D387A2 /* Default.png in Resources */,
+				49A4996F180FF4B500D387A2 /* Default@2x.png in Resources */,
+				49A49971180FF4B500D387A2 /* Default-568h@2x.png in Resources */,
+				49A49974180FF4B500D387A2 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49A49953180FF4B500D387A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A49967180FF4B500D387A2 /* main.m in Sources */,
+				49A4996B180FF4B500D387A2 /* VPAppDelegate.m in Sources */,
+				49A49977180FF4B500D387A2 /* VPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		49A49963180FF4B500D387A2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49A49964180FF4B500D387A2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		49A49972180FF4B500D387A2 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49A49973180FF4B500D387A2 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49A49978180FF4B500D387A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		49A49979180FF4B500D387A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49A4997B180FF4B500D387A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViocePlay/ViocePlay-Prefix.pch";
+				INFOPLIST_FILE = "ViocePlay/ViocePlay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		49A4997C180FF4B500D387A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViocePlay/ViocePlay-Prefix.pch";
+				INFOPLIST_FILE = "ViocePlay/ViocePlay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49A49952180FF4B500D387A2 /* Build configuration list for PBXProject "ViocePlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A49978180FF4B500D387A2 /* Debug */,
+				49A49979180FF4B500D387A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49A4997A180FF4B500D387A2 /* Build configuration list for PBXNativeTarget "ViocePlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A4997B180FF4B500D387A2 /* Debug */,
+				49A4997C180FF4B500D387A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49A4994F180FF4B500D387A2 /* Project object */;
+}
